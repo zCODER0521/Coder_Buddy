@@ -28,3 +28,11 @@ A modern, colorful, and responsive to-do list app built with vanilla JavaScript,
 ![Item Completed](screenshots/item%20completed%203.png)
 
 ---
+
+## 🚀 Getting Started
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/your-username/simple-todo-app.git
+   cd simple-todo-app/created_project
+   ```
