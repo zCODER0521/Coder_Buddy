@@ -1,0 +1,155 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333333;
+  --accent-color: #007bff;
+  --completed-color: #888888;
+}
+
+/* Global layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  background: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Todo app container */
+.todo-app {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* New task input */
+#new-task-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid var(--accent-color);
+  background: transparent;
+  color: var(--text-color);
+  outline: none;
+  box-sizing: border-box;
+}
+
+#new-task-input:focus {
+  border-bottom-color: #0056b3; /* darker accent for focus */
+}
+
+/* Task list */
+.task-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.task-item .toggle {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.task-item .task-label {
+  flex: 1;
+  margin-left: 0.5rem;
+  word-break: break-word;
+}
+
+.task-item .delete-btn {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.25rem;
+}
+
+.task-item.completed .task-label {
+  text-decoration: line-through;
+  color: var(--completed-color);
+}
+
+/* Footer */
+.todo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.todo-footer .filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.todo-footer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.todo-footer button:hover,
+.todo-footer button:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+  outline: none;
+}
+
+.clear-completed {
+  color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  .todo-app {
+    padding: 1rem;
+  }
+
+  #new-task-input {
+    font-size: 0.9rem;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-item .delete-btn {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+  }
+
+  .todo-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
