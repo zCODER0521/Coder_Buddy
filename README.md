@@ -71,3 +71,9 @@ _No build tools or server required!_
 - `screenshots/` – App screenshots
 
 ---
+
+## 📱 Responsive Design
+
+The app adapts to all screen sizes for a seamless experience on desktop and mobile.
+
+---
