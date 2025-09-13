@@ -61,3 +61,13 @@ _No build tools or server required!_
 - **Clear Completed:** Click the "Clear completed" button.
 
 ---
+
+## 📂 File Structure
+
+- `index.html` – Main HTML file
+- `style.css` – App styling
+- `app.js` – App logic
+- `README.md` – This file
+- `screenshots/` – App screenshots
+
+---
