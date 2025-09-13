@@ -43,3 +43,11 @@ A modern, colorful, and responsive to-do list app built with vanilla JavaScript,
 _No build tools or server required!_
 
 ---
+
+## 🛠️ Tech Stack
+
+- **HTML** – Structure
+- **CSS** – Styling & layout
+- **JavaScript** – Functionality & localStorage
+
+---
