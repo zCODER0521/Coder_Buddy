@@ -4,6 +4,8 @@ A modern, colorful, and responsive to-do list app built with vanilla JavaScript,
 
 ---
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
 ## ✨ Features
 
 - **Add Tasks:** Quickly add new tasks with the input field.
@@ -46,9 +48,10 @@ _No build tools or server required!_
 
 ## 🛠️ Tech Stack
 
-- **HTML** – Structure
-- **CSS** – Styling & layout
-- **JavaScript** – Functionality & localStorage
+**Python** – Core programming language
++- **LangChain** – Framework for developing language model applications
++- **LangGraph** – Graph-based orchestration for LLM workflows
++- **Groq Cloud** – High-performance LLM inference and deployment
 
 ---
 
@@ -85,3 +88,4 @@ Pull requests are welcome! For major changes, please open an issue first.
 ---
 
 Enjoy your productive day! 🎉
+
