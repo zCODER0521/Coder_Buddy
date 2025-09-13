@@ -36,3 +36,10 @@ A modern, colorful, and responsive to-do list app built with vanilla JavaScript,
    git clone https://github.com/your-username/simple-todo-app.git
    cd simple-todo-app/created_project
    ```
+
+2. **Open the app:**
+   - Double-click `index.html` or open it in your favorite browser.
+
+_No build tools or server required!_
+
+---
