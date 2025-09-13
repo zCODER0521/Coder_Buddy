@@ -51,3 +51,13 @@ _No build tools or server required!_
 - **JavaScript** – Functionality & localStorage
 
 ---
+
+## 📖 Usage
+
+- **Add a Task:** Type in the input and press Enter.
+- **Complete a Task:** Click the checkbox next to a task.
+- **Delete a Task:** Click the ✖ button.
+- **Filter Tasks:** Use the All, Active, or Completed buttons.
+- **Clear Completed:** Click the "Clear completed" button.
+
+---
