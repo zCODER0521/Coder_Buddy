@@ -77,3 +77,11 @@ _No build tools or server required!_
 The app adapts to all screen sizes for a seamless experience on desktop and mobile.
 
 ---
+
+## 🙌 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first.
+
+---
+
+Enjoy your productive day! 🎉
