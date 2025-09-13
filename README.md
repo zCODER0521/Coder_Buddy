@@ -23,3 +23,8 @@ A modern, colorful, and responsive to-do list app built with vanilla JavaScript,
 
 ### Item Added
 ![Item Added](screenshots/item%20added%202.png)
+
+### Item Completed
+![Item Completed](screenshots/item%20completed%203.png)
+
+---
